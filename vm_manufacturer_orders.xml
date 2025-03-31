@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="vmcustom" method="upgrade">
+    <name>VM Manufacturer Orders</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Ein Plugin zur Verwaltung von Herstellerbestellungen in VirtueMart</description>
+    <files>
+        <filename plugin="vm_manufacturer_orders">vm_manufacturer_orders.php</filename>
+        <folder>helpers</folder>
+        <folder>language</folder>
+        <folder>views</folder>
+    </files>
+    <languages>
+        <language tag="de-DE">language/de-DE/plg_vmcustom_manufacturer_orders.ini</language>
+    </languages>
+</extension>
